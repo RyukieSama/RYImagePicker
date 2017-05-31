@@ -1,15 +1,15 @@
 PODS:
   - Masonry (1.0.2)
-  - RYImagePicker (0.0.1):
+  - RYImagePicker (0.0.2):
     - Masonry (~> 1.0.2)
 
 DEPENDENCIES:
-  - RYImagePicker (= 0.0.1)
+  - RYImagePicker (= 0.0.2)
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  RYImagePicker: 202ffb1e5053df75f3f8234e85a6bd2621e7e7ae
+  RYImagePicker: c5a4081a80baaa8c5292f0a223c20789dd1ba15d
 
-PODFILE CHECKSUM: e7b9304edf64e64210db6d8167c95ba1136642fe
+PODFILE CHECKSUM: d6b1afc1891eec3b47fa47c7cb692f6ee86a9e0b
 
 COCOAPODS: 1.2.0

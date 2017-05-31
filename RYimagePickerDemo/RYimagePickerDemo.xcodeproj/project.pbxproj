@@ -30,7 +30,6 @@
 		A465FDB41CDC9847004B79D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A465FDBA1CDC9B19004B79D6 /* RYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYMainViewController.h; sourceTree = "<group>"; };
 		A465FDBB1CDC9B19004B79D6 /* RYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYMainViewController.m; sourceTree = "<group>"; };
-		A465FDBD1CDC9C97004B79D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A465FDBE1CDC9D88004B79D6 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		A465FDC01CDC9D8F004B79D6 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -97,7 +96,6 @@
 				A465FDB11CDC9847004B79D6 /* LaunchScreen.storyboard */,
 				A465FDB41CDC9847004B79D6 /* Info.plist */,
 				A465FDA31CDC9847004B79D6 /* Supporting Files */,
-				A465FDBD1CDC9C97004B79D6 /* PrefixHeader.pch */,
 			);
 			path = RYimagePickerDemo;
 			sourceTree = "<group>";
@@ -339,7 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DE9LJ533VH;
-				GCC_PREFIX_HEADER = /Users/rongqingwang/GitHub/RYImagePicker/RYimagePickerDemo/RYimagePickerDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RYimagePickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryukiewang.-";
@@ -353,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DE9LJ533VH;
-				GCC_PREFIX_HEADER = /Users/rongqingwang/GitHub/RYImagePicker/RYimagePickerDemo/RYimagePickerDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RYimagePickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryukiewang.-";
