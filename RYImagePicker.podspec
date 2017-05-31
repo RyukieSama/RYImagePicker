@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "RYImagePicker"
   s.summary      = "ImagePicker of Ryukie’s"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Ryukie" => "ryukie.sama@gmail.com" }
   s.homepage     = "https://github.com/RyukieSama/RYImagePicker.git"
