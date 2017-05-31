@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "RYImagePicker"
-  s.summary      = "ImagePicker of Ryukie’s"
-  s.version      = "0.0.2"
+  s.summary      = "ImagePicker for iOS by.RyukieSama"
+  s.version      = "0.0.3"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Ryukie" => "ryukie.sama@gmail.com" }
   s.homepage     = "https://github.com/RyukieSama/RYImagePicker.git"
-  s.platform     = :ios, '6.0'
-  s.ios.deployment_target = '6.0'
+  s.platform     = :ios, '7.0'
+  s.ios.deployment_target = '7.0'
   s.source       = { :git => 'https://github.com/RyukieSama/RYImagePicker.git', :tag => s.version}
   s.resource  = "RYPhotosPickerManager.bundle"
   s.requires_arc = true

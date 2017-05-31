@@ -50,8 +50,7 @@ static NSString *cellId = @"cellId";
     return @[
              @"选择视频(1个)",
              @"选择图片(9张)",
-             @"选择图片(1张)",
-             @"显示原图按钮",
+             @"选择图片(1张)   不显示原图按钮",
              @"自定义最大张数提示语"
              ];
 }
@@ -81,7 +80,9 @@ static NSString *cellId = @"cellId";
             RYImagePicker *picker = [RYImagePicker sharedInstance];
             picker.videoOnly = YES;
             picker.maxSelectedNumber = 1;
-            picker.isShowOriginalImageButton = YES;
+//            picker.isShowOriginalImageButton = NO;
+            picker.maxVideoHeight = 10;
+            picker.maxVideoSize = 10;
             [picker presentImagePickerControllerWithFinishedHandler:^(NSArray *selectedImages,NSArray *selectedAssets,NSDictionary *info) {
                 NSLog(@"selectedImages = %@",selectedImages);
                 NSLog(@"selectedAssets =  %@",selectedAssets);
@@ -104,6 +105,7 @@ static NSString *cellId = @"cellId";
         case 2: {//单张图片选择
             RYImagePicker *picker = [RYImagePicker sharedInstance];
             picker.maxSelectedNumber = 1;
+            picker.isShowOriginalImageButton = NO;
             [picker presentImagePickerControllerWithFinishedHandler:^(NSArray *selectedImages,NSArray *selectedAssets,NSDictionary *info) {
                 NSLog(@"selectedImages = %@",selectedImages);
                 NSLog(@"selectedAssets =  %@",selectedAssets);
@@ -112,22 +114,10 @@ static NSString *cellId = @"cellId";
             }];
         }
             break;
-        case 3: {//显示原图按钮
+        case 3: {//自定义最大张数提示语
             RYImagePicker *picker = [RYImagePicker sharedInstance];
-            picker.maxSelectedNumber = 1;
-            picker.isShowOriginalImageButton = YES;
-            [picker presentImagePickerControllerWithFinishedHandler:^(NSArray *selectedImages,NSArray *selectedAssets,NSDictionary *info) {
-                NSLog(@"selectedImages = %@",selectedImages);
-                NSLog(@"selectedAssets =  %@",selectedAssets);
-            } cancelHandler:^{
-                
-            }];
-        }
-            break;
-        case 4: {//自定义最大张数提示语
-            RYImagePicker *picker = [RYImagePicker sharedInstance];
-            picker.maxSelectedNumber = 0;
-            picker.overMaxInfo = @"哈哈哈哈哈哈哈哈最多9张哦";
+            picker.maxSelectedNumber = 2;
+            picker.overMaxInfo = @"哈哈哈哈哈哈哈哈最多2张哦";
             [picker presentImagePickerControllerWithFinishedHandler:^(NSArray *selectedImages,NSArray *selectedAssets,NSDictionary *info) {
                 NSLog(@"selectedImages = %@",selectedImages);
                 NSLog(@"selectedAssets =  %@",selectedAssets);

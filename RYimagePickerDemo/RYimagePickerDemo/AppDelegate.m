@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RYMainViewController.h"
+#import "RYImagePicker.h"
 
 #define SCREEN_W [UIScreen mainScreen].bounds.size.width
 #define SCREEN_H [UIScreen mainScreen].bounds.size.height
@@ -27,6 +28,16 @@
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
     _window.rootViewController = navi;
     [_window makeKeyAndVisible];
+    
+    //配置RYImagePicker
+    RYImagePicker *picker = [RYImagePicker sharedInstance];
+    picker.maxVideoSizeHud = ^() {
+        NSLog(@"超过最大视频尺寸限制");
+    };
+    picker.maxVideoHeightHud = ^() {
+        NSLog(@"超过最大视频分辨率限制");
+    };
+    
     return YES;
 }
 

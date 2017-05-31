@@ -20,6 +20,7 @@
     dispatch_once(&onceToken, ^{
         instance = [[RYImagePicker alloc] init];
         instance.maxSelectedNumber = 9;
+        instance.isShowOriginalImageButton = YES;
     });
     return instance;
 }
@@ -34,38 +35,38 @@
     
     PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
     switch (status) {
-        case PHAuthorizationStatusNotDetermined: {//未确定 申请
-            [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status){
-                switch (status) {
-                    case PHAuthorizationStatusAuthorized: {
-                        break;
+            case PHAuthorizationStatusNotDetermined: {//未确定 申请
+                [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status){
+                    switch (status) {
+                            case PHAuthorizationStatusAuthorized: {
+                                break;
+                            }
+                        default: {
+                            return;
+                            break;
+                        }
                     }
-                    default: {
-                        return;
-                        break;
-                    }
-                }
-            }];
-        }
+                }];
+            }
             break;
-        case PHAuthorizationStatusRestricted:
-        case PHAuthorizationStatusDenied: {
-            //弹窗提示
-            UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"提示" message:@"请在iPhone的“设置—隐私—照片”选项中，允许访问你的照片" preferredStyle:UIAlertControllerStyleAlert];
-            UIAlertAction *actionCancle = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-                
-            }];
-            UIAlertAction *actionCommit = [UIAlertAction actionWithTitle:@"去设置" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
-            }];
-            [alertC addAction:actionCancle];
-            [alertC addAction:actionCommit];
-            [[self getAppTopVieController] presentViewController:alertC animated:YES completion:^{
-            }];
-            return;
-            break;
-        }
-        case PHAuthorizationStatusAuthorized://允许了
+            case PHAuthorizationStatusRestricted:
+            case PHAuthorizationStatusDenied: {
+                //弹窗提示
+                UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"提示" message:@"请在iPhone的“设置—隐私—照片”选项中，允许访问你的照片" preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertAction *actionCancle = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+                    
+                }];
+                UIAlertAction *actionCommit = [UIAlertAction actionWithTitle:@"去设置" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+                }];
+                [alertC addAction:actionCancle];
+                [alertC addAction:actionCommit];
+                [[self getAppTopVieController] presentViewController:alertC animated:YES completion:^{
+                }];
+                return;
+                break;
+            }
+            case PHAuthorizationStatusAuthorized://允许了
         default: {
             break;
         }
@@ -214,6 +215,12 @@
     _currentAlbumImageCount = 0;
     //重置最大张数
     _maxSelectedNumber = 9;
+    //显示原图按钮
+    _isShowOriginalImageButton = YES;
+    //视频大小限制
+    _maxVideoSize = 0;
+    //视频分辨率限制
+    _maxVideoHeight = 0;
     NSLog(@"==RYImagePicker reseted!==");
     //移除通知监听
     [self removeNotificationOb];
