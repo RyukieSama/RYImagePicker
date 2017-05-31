@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A440592E1DBF4EB700874632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A465FDA71CDC9847004B79D6 /* AppDelegate.m */; };
+		A440592F1DBF4EB700874632 /* RYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A465FDBB1CDC9B19004B79D6 /* RYMainViewController.m */; };
+		A44059301DBF4EB700874632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A465FDA41CDC9847004B79D6 /* main.m */; };
+		A465FDB01CDC9847004B79D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A465FDAF1CDC9847004B79D6 /* Assets.xcassets */; };
+		A465FDB31CDC9847004B79D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A465FDB11CDC9847004B79D6 /* LaunchScreen.storyboard */; };
+		A465FDBF1CDC9D88004B79D6 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A465FDBE1CDC9D88004B79D6 /* Photos.framework */; };
+		A465FDC11CDC9D8F004B79D6 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A465FDC01CDC9D8F004B79D6 /* PhotosUI.framework */; };
+		E7BEA345BD1F57FB272936A5 /* libPods-RYimagePickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB57E18A8F5F4D66F0EB9BA /* libPods-RYimagePickerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29ED3A56CF3D33A8264DB9B5 /* Pods-RYimagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYimagePickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYimagePickerDemo/Pods-RYimagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9413F46754E26BDDDC69EB9C /* Pods-RYimagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYimagePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYimagePickerDemo/Pods-RYimagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB57E18A8F5F4D66F0EB9BA /* libPods-RYimagePickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYimagePickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A465FDA01CDC9847004B79D6 /* RYimagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYimagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A465FDA41CDC9847004B79D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A465FDA61CDC9847004B79D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A465FDA71CDC9847004B79D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A465FDAF1CDC9847004B79D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A465FDB21CDC9847004B79D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A465FDB41CDC9847004B79D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A465FDBA1CDC9B19004B79D6 /* RYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYMainViewController.h; sourceTree = "<group>"; };
+		A465FDBB1CDC9B19004B79D6 /* RYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYMainViewController.m; sourceTree = "<group>"; };
+		A465FDBD1CDC9C97004B79D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A465FDBE1CDC9D88004B79D6 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		A465FDC01CDC9D8F004B79D6 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A465FD9D1CDC9847004B79D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A465FDC11CDC9D8F004B79D6 /* PhotosUI.framework in Frameworks */,
+				A465FDBF1CDC9D88004B79D6 /* Photos.framework in Frameworks */,
+				E7BEA345BD1F57FB272936A5 /* libPods-RYimagePickerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4DDB449CE70F793516E33B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A465FDC01CDC9D8F004B79D6 /* PhotosUI.framework */,
+				A465FDBE1CDC9D88004B79D6 /* Photos.framework */,
+				9FB57E18A8F5F4D66F0EB9BA /* libPods-RYimagePickerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72003052C3683BC36E2C4AD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9413F46754E26BDDDC69EB9C /* Pods-RYimagePickerDemo.debug.xcconfig */,
+				29ED3A56CF3D33A8264DB9B5 /* Pods-RYimagePickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A465FD971CDC9847004B79D6 = {
+			isa = PBXGroup;
+			children = (
+				A465FDA21CDC9847004B79D6 /* RYimagePickerDemo */,
+				A465FDA11CDC9847004B79D6 /* Products */,
+				4B4DDB449CE70F793516E33B /* Frameworks */,
+				72003052C3683BC36E2C4AD6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A465FDA11CDC9847004B79D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A465FDA01CDC9847004B79D6 /* RYimagePickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A465FDA21CDC9847004B79D6 /* RYimagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A465FDA61CDC9847004B79D6 /* AppDelegate.h */,
+				A465FDA71CDC9847004B79D6 /* AppDelegate.m */,
+				A465FDBA1CDC9B19004B79D6 /* RYMainViewController.h */,
+				A465FDBB1CDC9B19004B79D6 /* RYMainViewController.m */,
+				A465FDAF1CDC9847004B79D6 /* Assets.xcassets */,
+				A465FDB11CDC9847004B79D6 /* LaunchScreen.storyboard */,
+				A465FDB41CDC9847004B79D6 /* Info.plist */,
+				A465FDA31CDC9847004B79D6 /* Supporting Files */,
+				A465FDBD1CDC9C97004B79D6 /* PrefixHeader.pch */,
+			);
+			path = RYimagePickerDemo;
+			sourceTree = "<group>";
+		};
+		A465FDA31CDC9847004B79D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A465FDA41CDC9847004B79D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A465FD9F1CDC9847004B79D6 /* RYimagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A465FDB71CDC9847004B79D6 /* Build configuration list for PBXNativeTarget "RYimagePickerDemo" */;
+			buildPhases = (
+				6828BA9ECF80C58156A56DFB /* [CP] Check Pods Manifest.lock */,
+				A465FD9C1CDC9847004B79D6 /* Sources */,
+				A465FD9D1CDC9847004B79D6 /* Frameworks */,
+				A465FD9E1CDC9847004B79D6 /* Resources */,
+				2A9E200C7091A107F439CD38 /* [CP] Embed Pods Frameworks */,
+				7D315BD07F5C1D7EC1718718 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYimagePickerDemo;
+			productName = RYimagePickerDemo;
+			productReference = A465FDA01CDC9847004B79D6 /* RYimagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A465FD981CDC9847004B79D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = RongqingWang;
+				TargetAttributes = {
+					A465FD9F1CDC9847004B79D6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DE9LJ533VH;
+					};
+				};
+			};
+			buildConfigurationList = A465FD9B1CDC9847004B79D6 /* Build configuration list for PBXProject "RYimagePickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A465FD971CDC9847004B79D6;
+			productRefGroup = A465FDA11CDC9847004B79D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A465FD9F1CDC9847004B79D6 /* RYimagePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A465FD9E1CDC9847004B79D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A465FDB31CDC9847004B79D6 /* LaunchScreen.storyboard in Resources */,
+				A465FDB01CDC9847004B79D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A9E200C7091A107F439CD38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYimagePickerDemo/Pods-RYimagePickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6828BA9ECF80C58156A56DFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D315BD07F5C1D7EC1718718 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYimagePickerDemo/Pods-RYimagePickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A465FD9C1CDC9847004B79D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440592E1DBF4EB700874632 /* AppDelegate.m in Sources */,
+				A440592F1DBF4EB700874632 /* RYMainViewController.m in Sources */,
+				A44059301DBF4EB700874632 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A465FDB11CDC9847004B79D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A465FDB21CDC9847004B79D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A465FDB51CDC9847004B79D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A465FDB61CDC9847004B79D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A465FDB81CDC9847004B79D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9413F46754E26BDDDC69EB9C /* Pods-RYimagePickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DE9LJ533VH;
+				GCC_PREFIX_HEADER = /Users/rongqingwang/GitHub/RYImagePicker/RYimagePickerDemo/RYimagePickerDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = RYimagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryukiewang.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A465FDB91CDC9847004B79D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ED3A56CF3D33A8264DB9B5 /* Pods-RYimagePickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DE9LJ533VH;
+				GCC_PREFIX_HEADER = /Users/rongqingwang/GitHub/RYImagePicker/RYimagePickerDemo/RYimagePickerDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = RYimagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryukiewang.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A465FD9B1CDC9847004B79D6 /* Build configuration list for PBXProject "RYimagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A465FDB51CDC9847004B79D6 /* Debug */,
+				A465FDB61CDC9847004B79D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A465FDB71CDC9847004B79D6 /* Build configuration list for PBXNativeTarget "RYimagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A465FDB81CDC9847004B79D6 /* Debug */,
+				A465FDB91CDC9847004B79D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A465FD981CDC9847004B79D6 /* Project object */;
+}

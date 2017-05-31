@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  RYimagePickerDemo
+//
+//  Created by RongqingWang on 16/5/6.
+//  Copyright © 2016年 RongqingWang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//#import <Masonry.h>
+//#import "RYMainViewController.h"
+//#import "RYImagePicker.h"
+//#import "RYImagePickerController.h"
+//#import "RYAlbumListController.h"
+//#import "RYCollectionGridController.h"
+//#import "RYGridCell.h"
+//#import "BFGridCellModel.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
