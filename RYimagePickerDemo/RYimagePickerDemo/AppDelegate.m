@@ -38,6 +38,8 @@
         NSLog(@"超过最大视频分辨率限制");
     };
     
+    [NSClassFromString(@"UIDebuggingInformationOverlay") performSelector:NSSelectorFromString(@"prepareDebuggingOverlay")];
+    
     return YES;
 }
 

@@ -63,7 +63,7 @@ typedef void(^canceledPickImageRY)();
  */
 @property (nonatomic, assign) BOOL videoOnly;
 /**
- 是否显示  "原图" 按钮    默认NO   不显示原图按钮
+ 是否显示  "原图" 按钮    默认YES   显示原图按钮
  */
 @property (nonatomic, assign) BOOL isShowOriginalImageButton;
 /**
@@ -89,15 +89,15 @@ typedef void(^canceledPickImageRY)();
 /**
  选择的视频大于最大分辨率时的操作如HUD等
  */
-@property (nonatomic, weak) canceledPickImageRY maxVideoHeightHud;
+@property (nonatomic, copy) canceledPickImageRY maxVideoHeightHud;
 /**
- 最大视频大小
+ 最大视频大小  如 1024*1024*20   20M
  */
 @property (nonatomic, assign) NSInteger maxVideoSize;
 /**
  选择的视频大于最大尺寸时的操作如HUD等
  */
-@property (nonatomic, weak) canceledPickImageRY maxVideoSizeHud;
+@property (nonatomic, copy) canceledPickImageRY maxVideoSizeHud;
 
 
 
