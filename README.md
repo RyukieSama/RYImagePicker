@@ -5,6 +5,8 @@
 
 ## 照片选择器  
 支持`图片` `视频`选择
+![](http://ohfpqyfi7.bkt.clouddn.com/14966318512725.jpg)
+
 ![](http://ohfpqyfi7.bkt.clouddn.com/14963080079150.png)
 
 ![](http://ohfpqyfi7.bkt.clouddn.com/14963079957246.png)
