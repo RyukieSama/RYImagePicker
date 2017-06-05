@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Photos/Photos.h>
-#import "RYImageScrollView.h"
+#import "RYImagePickerScrollView.h"
 #import "RYGridCellModel.h"
 
 @interface RYPHAssetPlayController : UIViewController
