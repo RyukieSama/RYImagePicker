@@ -7,6 +7,6 @@ inhibit_all_warnings!
 
 target 'RYimagePickerDemo' do
     
-pod 'RYImagePicker' , '0.0.3'
+pod 'RYImagePicker'
 
 end

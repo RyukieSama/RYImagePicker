@@ -7,70 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00558E2FE845C02FBCD4ADBF5AD01333 /* RYPHAssetPlayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B919A39D96D8FB273F38837405B4889 /* RYPHAssetPlayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C12C38924B4F9CAB903E5167B92A380 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B9C30029B4FD663F66DED9CCD1F59F9 /* RYPHAssetBorwserController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF232C5B488EB11F1EC405B979A54590 /* RYPHAssetBorwserController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C174B957815309C52FBC8145899E130 /* RYAlbumSelectNaviTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A7ABCDE0C5228606CDECA2ED2E6808 /* RYAlbumSelectNaviTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D123B1DDDC389A2D3E5CBEF05250BF8 /* RYImagePickerUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E868EEF9995AA565798C96912C81B4D5 /* RYImagePickerUIConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		075840F963971DD2FAB263F435DFA080 /* RYPHAssetCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB8B6BDAEE4ED83551A7FB77C507BB4 /* RYPHAssetCacheHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0D1AACA1B24AB34070928CF0CC2BF3A9 /* RYPHAssetBorwserController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD18A576F5C1DA9CB63CA6E97553218E /* RYPHAssetBorwserController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13FBFEFE52D36AAC315644ACBE97893B /* RYImagePickerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DE2A66297B357675C92520B2DF086C /* RYImagePickerScrollView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		147B210DE9D091013344F583657DC91D /* RYAlbumsSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 055B723BB0FF5B1304A9A03B4D80C633 /* RYAlbumsSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14B65CE3038761FA8F6F5D1ECED6A562 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D4E7A0DD5DEFF3053E9A90455C82E0 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		14F5A63C4462A236FAE0F99E372C3AA1 /* RYPHAssetPlayController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F369CD5507B94121D32B760D8842C2 /* RYPHAssetPlayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18C7DEC577BEC41DB13338A1270D94B5 /* RYPHAssetCacheHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CA95E622E646CCF81E1DED4E17AAA4C4 /* RYPHAssetCacheHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A8FF76FCDA23B624CFC67185E1E4120 /* RYPHAssetPlayViewHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0472E383619C25377A7F167B434244D /* RYPHAssetPlayViewHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AF513D8D71B663D5422760106B13723 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4196150583BEF5DE9A9455EF3409CA00 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1E7714798C1CF573B08FBA5C9823E7EB /* RYListControllerFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = B784BE7212D6403C622A66E375EE2DD5 /* RYListControllerFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B4670C30DC5AE080733B5E427A4D5B7 /* RYImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB308A5A7A88A42D23ABA1C649C51C5 /* RYImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1EC363D6911160B063DB6CC87F595A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BB873D5D15A279E99D1F132627C360 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39E180446FD2ACA767448509ED1AE264 /* RYImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FC2530DC6A79F579CFF4ACA7C4DEB /* RYImagePicker-dummy.m */; };
-		3CB7333E5223BF9687FC4EE50D89F5A1 /* RYAlbumListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05B84520E568A1129C5C4BC8930DE6 /* RYAlbumListController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		29EF82E92D80171B2DC77F6685BFEB98 /* RYImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C672D4419E23FEAA9AB2A00EEFFCBBBA /* RYImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D28DB02F8321700DCF3849917E4B6B5 /* RYImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A821E121753B86D2D4EE3E7445606 /* RYImagePickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F20E0AFAC9FA7C25418377BFE898114 /* RYPHAssetPlayViewFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 331794FA96D69CEFF9C1FAA3E12AA47C /* RYPHAssetPlayViewFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		466869E41EB306F74C8A6E87CC1539BF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C64DB3B0AF38935E9DB023C95713443E /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DED0575C701F568C3ADB3183A445FD /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1273C6E7DAB6B34FD9DF5F2345DC9E /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C04258CEC39525AC7F580D61B2BE331 /* RYGridCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28D362D13BC6D60E67BCCD1BB552ADE /* RYGridCellModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C86F045C0A97DB88F523F1B2102EA22 /* RYAlbumsSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFD70ACA0B93277D2E034A0942D9297 /* RYAlbumsSelectView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAF0FDDB22A08F1F02D18167E7F553E /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7542A3BF55D150769CE52C9649B731 /* RYPHAssetPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB10AB7613A73AFE7386222DA827CDE /* RYPHAssetPlayController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		506AF1C0895D6169AB0D183C88A6F55E /* RYAlbumListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471DC29E712F98AB81935F8AB7BEBD5 /* RYAlbumListController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5083EDD7CC60C1DBD40C5688DA2BFA7B /* RYImagePickerUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8782266B1022D0AA3251D0C1585014 /* RYImagePickerUIConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		543E27B3858B5C93029BA65E803F974D /* RYAlbumSelectNaviTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C3523A9262B28479CD6C11F255583F /* RYAlbumSelectNaviTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		548BBD5B63FA097F419829C3EE8EA068 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A63BBCEB66D57AD7A17551AE1BE1E9A3 /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		54C5E8DB9A862A2CA209CFBE783CB477 /* RYImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB3E4E50D604544375B62A91A06EDED /* RYImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		557987BC1540256333BC7629F68B64E3 /* RYListControllerFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FE7347684F4AD277CD76B87ADBC790 /* RYListControllerFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		566EA65277D377CE9AF9BC125521965B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		5673C8C3E5442BE7CE35FAC26C88CC1C /* RYImagePickerUIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D338EE85C5124F1E494F077E7A37D439 /* RYImagePickerUIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57CB1A15F0477B59EC081CADEC8BCD3A /* RYImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B334B93DDA8FFD56893A304F1F581B3 /* RYImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B46C39A3F939EDB676981756CC24007 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 255A7DA9D55D069639E49BC47979100C /* Masonry-dummy.m */; };
-		6149D391AA681F4F4BFF2B3D8343D6D2 /* RYGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AFF592710AAAD60AE02A212543B32 /* RYGridCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5B4BEFBDB374EAAC60EE5195224A42DB /* RYAlbumListController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1F52C05D07A2FC04544E8BFDFEACD4 /* RYAlbumListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5E7586CC961EFDBA3BB7DC227E538B /* RYGridCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DE498424799A3A8236CBA76AF3C98E /* RYGridCellModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		61C611ABFFC5FFF35ACE70883CB8F523 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFDFD5D271CDBC03B9A037B17729B8 /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AD61CDAEDBCADAA210E79B60967C24 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		633EC6635E9A0E7D01D98203042E3406 /* RYAlbumSelectNaviTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A81CD315DBF421208D0486A3AD7CB1 /* RYAlbumSelectNaviTopView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		754375DBA11EA8C736B8932D2E6E2119 /* RYPHAssetCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA1498E543A01C3E93CCFDF4C81A29 /* RYPHAssetCacheHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7C0117FAF6D762D8A0AA4A65B434571C /* RYGridCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E57C2E5048291F35566F1C18B62A7A51 /* RYGridCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F86D2ED7CA318E050EA0132DE02A087 /* RYImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EC5659BF74CD5FEFA2B9F211B59436 /* RYImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82A57F91CF4260F006E1A3C4DFF2193C /* RYImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72B49C6C2B9173AF00A9FF95FB6FDB9 /* RYImagePickerController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		64C8607694816C3658E43176DA857717 /* RYGridCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2402A5AB6CF34E29A418011C06A54CD3 /* RYGridCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6775F05ED03DFE021342C58422DC71F5 /* RYPHAssetPlayViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150CA01D1230C664933F052D536CF067 /* RYPHAssetPlayViewFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6990C40671844335C37713841F835FA2 /* RYAlbumsSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C38D4357BFFF3945106E72718A4B0BDF /* RYAlbumsSelectCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		69C2E7888FEF4F4E14F72FD8AEDA18CB /* RYImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB3C0D2719C530AA5D8F9AECE6BBE5 /* RYImagePicker-dummy.m */; };
+		6E7CCBDF8941CC286C9FA6F9E0B04627 /* RYListControllerFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1575EF641C9B3B7F957D72F2108FEE88 /* RYListControllerFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A7BC1D47A82A2C629B47663770527D0 /* RYPHAssetPlayViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26100B30229DF49B212BBD63025B36B3 /* RYPHAssetPlayViewHeaderView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7C683535082FFACBB9415754CBCA9F5A /* RYImagePickerScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D28E28679159F857F8197802072131E /* RYImagePickerScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4086351FBFBCDA94CBBA2451F3598A07 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DA5E769617E1DEC4CC4D09AEA92EE30 /* RYAlbumListController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2511CC1AD866D88CD39EEFAE12912E6 /* RYAlbumListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA01E54A6E22CE5B3A16C9862529FE6 /* RYAlbumSelectNaviTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5364E5F60A4FACCDE3E190470D484A3 /* RYAlbumSelectNaviTopView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		90804AC3E1A567A2538A959D845A554B /* Pods-RYimagePickerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 529009BA9176DF55A869DAE9F251AA85 /* Pods-RYimagePickerDemo-dummy.m */; };
+		913596C5F05584D74C14F785F5E488B7 /* RYGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB208FAD47B1DE85241768059EC332B /* RYGridCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9828C51D0E23FDD734BEAEB71D71B0B1 /* RYListControllerFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B9A2A558D3DF2B183E993E17D31AE0 /* RYListControllerFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D3512F2E5B180672D664EDBAC1FE053D /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7074BFC8BA0CC75E4ABC61806319C25E /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99E00D593F76D7E6C96300345E211282 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2FD761A7FD42FE0E138F6D2C678D7 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9DABEF893F7E99F1225281947CDEDA70 /* RYAlbumsSelectCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B492F196F1B1D8F0AF06E451E8201671 /* RYAlbumsSelectCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B44CE4CE6AD23593D087B2A3795C49 /* RYImagePickerUIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 53BAB7A177F19733BD362CF478EC6344 /* RYImagePickerUIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D107D06687BD27324BB6B091F1F43E /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C11C14009BF34924829A52A1AA4AB605 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA3B9F46D0B0C19E2FD211D1F0D01120 /* RYAlbumsSelectCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 64799746F5B8C49BE65BDD8532B16163 /* RYAlbumsSelectCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2241510FDC55607D5326DB9BFD84D07 /* RYGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE666758640960FF80C2A77950CA53A /* RYGridCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B953667D411D1DCD919CBD314F568A92 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE00156D8EE518DB57BDB238A6236785 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C1670BEF3A47479623BF024B25F9B06C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		C3260A12293442EC9B1CE8AFA0BF087B /* RYImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6F5B91F52C55B4F0FEC778A219D8A /* RYImageScrollView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A01A7260C2827AA7C6A9F5BC190188 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEF7E139022FFA4F5C99D4DC5DE67990 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A965B1FE575F3745A7F440EA95B4A /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CF975E323C1AC33228F7935830C69077 /* RYPHAssetBorwserController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31B04C3F403D68FD138FC3DA0A30FEB /* RYPHAssetBorwserController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D08655C0A5FD7B9FBB0C3C1154A0DD43 /* RYAlbumsSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F28F2D58015A135DBAF5E4AB5CD69C1F /* RYAlbumsSelectView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D8D72BEC4364E9F77BCC6B8AB4E30DF3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7579D079B866C72D77154F2A21A72C5D /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DDD9778685CF79A8F7E6E3858C687E56 /* RYPHAssetBorwserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14390DBA4E852DD05802EDA3CFD3F6C8 /* RYPHAssetBorwserController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DF2FD0739C5C8917E9132CD85A310D20 /* RYPHAssetPlayViewHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE6CBE5495A78A8099CA0A99E4DDDF /* RYPHAssetPlayViewHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 039D986739F2127B5745754F8B6747BF /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E168705507B436C2FA6279605E8C55DE /* RYGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC40A5813AD537F94288C2C7B61E973 /* RYGridCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B49F760E48607908D5835B42E7612794 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E43E3113C5469766922E74B319290DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		E44D0925AFDAD6DF8E84E7FBFCABDBC0 /* RYPHAssetPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DA571D9ED596C9AF587A93D401EA2C /* RYPHAssetPlayController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E8B56B6E943544B3E9B2C707D8724FE5 /* RYAlbumsSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DE183A003B19FA09CE37D8DF95243A /* RYAlbumsSelectCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 15A25C83B77AAC8171210A3B1F7E2042 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F19754D7A644AB1C2D46F8D153E9E4BE /* RYPHAssetPlayViewFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF8D2759267DB57C7A8B5AEB1F43D65 /* RYPHAssetPlayViewFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1CFE1CE44C117105C94DA21B07DA6C2 /* RYPHAssetPlayViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB795669332B837CD17F07A595FEA630 /* RYPHAssetPlayViewFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F368965747A33496A5E18FA005B2E9E6 /* RYAlbumsSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1B1E21756D7BB2BD614D224B26B93B /* RYAlbumsSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F278EE289264DB4146B4B5883770B142 /* RYImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0474B113DD7732A3814B4EFDCB55D89 /* RYImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F390D582745DF3516ADD4D910A2ACFFA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B8CB18865FDA0EF00C0EFA6EDD074B /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F9DE8698285E6D8C5300D8E288D44EC1 /* RYPHAssetPlayViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A6616AB72950FD2C846C100E43E231 /* RYPHAssetPlayViewHeaderView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FB6CAB203B678F4C50BD4033BCB1A8BC /* RYImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 23467684BBB9DB155EFE757F89E6118C /* RYImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F76BECF82D542DD13D15969621C8A61E /* RYPHAssetCacheHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D12A7AB22B2C5A65666B4540A2896B /* RYPHAssetCacheHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,83 +98,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021EBA0597F8A37CAC4343374393722A /* RYPhotosPickerManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = RYPhotosPickerManager.bundle; sourceTree = "<group>"; };
 		039D986739F2127B5745754F8B6747BF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		055B723BB0FF5B1304A9A03B4D80C633 /* RYAlbumsSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAlbumsSelectView.h; path = RYImagePicker/RYAlbumsSelectView.h; sourceTree = "<group>"; };
 		0D06F0FD65EDEF221DDA399D7CC58D28 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		0D8782266B1022D0AA3251D0C1585014 /* RYImagePickerUIConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImagePickerUIConfig.m; path = RYImagePicker/RYImagePickerUIConfig.m; sourceTree = "<group>"; };
+		14390DBA4E852DD05802EDA3CFD3F6C8 /* RYPHAssetBorwserController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetBorwserController.m; path = RYImagePicker/RYPHAssetBorwserController.m; sourceTree = "<group>"; };
+		150CA01D1230C664933F052D536CF067 /* RYPHAssetPlayViewFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetPlayViewFooterView.m; path = RYImagePicker/RYPHAssetPlayViewFooterView.m; sourceTree = "<group>"; };
+		1575EF641C9B3B7F957D72F2108FEE88 /* RYListControllerFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYListControllerFooterView.h; path = RYImagePicker/RYListControllerFooterView.h; sourceTree = "<group>"; };
 		15A25C83B77AAC8171210A3B1F7E2042 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		20D3C543946C69AD11093320DC78C6BA /* RYImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYImagePicker.xcconfig; sourceTree = "<group>"; };
 		20DED0575C701F568C3ADB3183A445FD /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		23467684BBB9DB155EFE757F89E6118C /* RYImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImagePicker.m; path = RYImagePicker/RYImagePicker.m; sourceTree = "<group>"; };
-		23A7ABCDE0C5228606CDECA2ED2E6808 /* RYAlbumSelectNaviTopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAlbumSelectNaviTopView.h; path = RYImagePicker/RYAlbumSelectNaviTopView.h; sourceTree = "<group>"; };
+		2402A5AB6CF34E29A418011C06A54CD3 /* RYGridCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYGridCellModel.h; path = RYImagePicker/RYGridCellModel.h; sourceTree = "<group>"; };
+		24C3523A9262B28479CD6C11F255583F /* RYAlbumSelectNaviTopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAlbumSelectNaviTopView.h; path = RYImagePicker/RYAlbumSelectNaviTopView.h; sourceTree = "<group>"; };
 		255A7DA9D55D069639E49BC47979100C /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		26100B30229DF49B212BBD63025B36B3 /* RYPHAssetPlayViewHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetPlayViewHeaderView.m; path = RYImagePicker/RYPHAssetPlayViewHeaderView.m; sourceTree = "<group>"; };
 		2AD67EFE6B1B1FA22A93D47257AF0E78 /* Pods-RYimagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYimagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		2B334B93DDA8FFD56893A304F1F581B3 /* RYImageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImageScrollView.h; path = RYImagePicker/RYImageScrollView.h; sourceTree = "<group>"; };
-		2D1B1E21756D7BB2BD614D224B26B93B /* RYAlbumsSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAlbumsSelectView.h; path = RYImagePicker/RYAlbumsSelectView.h; sourceTree = "<group>"; };
+		2D4A821E121753B86D2D4EE3E7445606 /* RYImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImagePickerController.m; path = RYImagePicker/RYImagePickerController.m; sourceTree = "<group>"; };
 		2D7EC4E76C56F42C7B884B024D9FF50F /* Pods-RYimagePickerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYimagePickerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		35DE183A003B19FA09CE37D8DF95243A /* RYAlbumsSelectCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAlbumsSelectCell.m; path = RYImagePicker/RYAlbumsSelectCell.m; sourceTree = "<group>"; };
-		36CA1498E543A01C3E93CCFDF4C81A29 /* RYPHAssetCacheHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetCacheHelper.m; path = RYImagePicker/RYPHAssetCacheHelper.m; sourceTree = "<group>"; };
+		32DC34ED25E765225EDF0F3689A5C2D2 /* RYImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		331794FA96D69CEFF9C1FAA3E12AA47C /* RYPHAssetPlayViewFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetPlayViewFooterView.h; path = RYImagePicker/RYPHAssetPlayViewFooterView.h; sourceTree = "<group>"; };
 		3B4A965B1FE575F3745A7F440EA95B4A /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		3CAF0FDDB22A08F1F02D18167E7F553E /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		4086351FBFBCDA94CBBA2451F3598A07 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		4196150583BEF5DE9A9455EF3409CA00 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		436C17FFCF6CF0961A1F7DE0F9C3F63B /* libPods-RYimagePickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RYimagePickerDemo.a"; path = "libPods-RYimagePickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50A81CD315DBF421208D0486A3AD7CB1 /* RYAlbumSelectNaviTopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAlbumSelectNaviTopView.m; path = RYImagePicker/RYAlbumSelectNaviTopView.m; sourceTree = "<group>"; };
+		48DE498424799A3A8236CBA76AF3C98E /* RYGridCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYGridCellModel.m; path = RYImagePicker/RYGridCellModel.m; sourceTree = "<group>"; };
+		4D28E28679159F857F8197802072131E /* RYImagePickerScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImagePickerScrollView.h; path = RYImagePicker/RYImagePickerScrollView.h; sourceTree = "<group>"; };
 		529009BA9176DF55A869DAE9F251AA85 /* Pods-RYimagePickerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYimagePickerDemo-dummy.m"; sourceTree = "<group>"; };
-		53EC5659BF74CD5FEFA2B9F211B59436 /* RYImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImagePicker.h; path = RYImagePicker/RYImagePicker.h; sourceTree = "<group>"; };
+		53BAB7A177F19733BD362CF478EC6344 /* RYImagePickerUIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImagePickerUIConfig.h; path = RYImagePicker/RYImagePickerUIConfig.h; sourceTree = "<group>"; };
 		57D107D06687BD27324BB6B091F1F43E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		5BB308A5A7A88A42D23ABA1C649C51C5 /* RYImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImagePicker.m; path = RYImagePicker/RYImagePicker.m; sourceTree = "<group>"; };
 		5C12C38924B4F9CAB903E5167B92A380 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		5DEFDFD5D271CDBC03B9A037B17729B8 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		5E3E8852C1EEC2782CBF8EC8148E63FB /* RYPhotosPickerManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = RYPhotosPickerManager.bundle; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		64799746F5B8C49BE65BDD8532B16163 /* RYAlbumsSelectCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAlbumsSelectCell.h; path = RYImagePicker/RYAlbumsSelectCell.h; sourceTree = "<group>"; };
 		67D4E7A0DD5DEFF3053E9A90455C82E0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		6B919A39D96D8FB273F38837405B4889 /* RYPHAssetPlayController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetPlayController.h; path = RYImagePicker/RYPHAssetPlayController.h; sourceTree = "<group>"; };
+		6DC40A5813AD537F94288C2C7B61E973 /* RYGridCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYGridCell.m; path = RYImagePicker/RYGridCell.m; sourceTree = "<group>"; };
+		6FBB3C0D2719C530AA5D8F9AECE6BBE5 /* RYImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYImagePicker-dummy.m"; sourceTree = "<group>"; };
 		7074BFC8BA0CC75E4ABC61806319C25E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		71A5285A0B5D7E4E7C9B07464EA99DD5 /* Pods-RYimagePickerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYimagePickerDemo-resources.sh"; sourceTree = "<group>"; };
 		7579D079B866C72D77154F2A21A72C5D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		7CF8D2759267DB57C7A8B5AEB1F43D65 /* RYPHAssetPlayViewFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetPlayViewFooterView.h; path = RYImagePicker/RYPHAssetPlayViewFooterView.h; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8321D42CC22DE4560C065EE9E6097E9B /* RYImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYImagePicker.xcconfig; sourceTree = "<group>"; };
+		8471DC29E712F98AB81935F8AB7BEBD5 /* RYAlbumListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAlbumListController.m; path = RYImagePicker/RYAlbumListController.m; sourceTree = "<group>"; };
 		84A8F6FCC732E743D90EBAD8CCCCD06B /* libRYImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRYImagePicker.a; path = libRYImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D12A7AB22B2C5A65666B4540A2896B /* RYPHAssetCacheHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetCacheHelper.h; path = RYImagePicker/RYPHAssetCacheHelper.h; sourceTree = "<group>"; };
 		899D0F75186112B2D40F69D1AA46DEFC /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D1FC2530DC6A79F579CFF4ACA7C4DEB /* RYImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYImagePicker-dummy.m"; sourceTree = "<group>"; };
+		91B9A2A558D3DF2B183E993E17D31AE0 /* RYListControllerFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYListControllerFooterView.m; path = RYImagePicker/RYListControllerFooterView.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		959DB8F890AA58C874468D61FFE8310F /* Pods-RYimagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYimagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9EB8B6BDAEE4ED83551A7FB77C507BB4 /* RYPHAssetCacheHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetCacheHelper.m; path = RYImagePicker/RYPHAssetCacheHelper.m; sourceTree = "<group>"; };
+		A0474B113DD7732A3814B4EFDCB55D89 /* RYImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImagePickerController.h; path = RYImagePicker/RYImagePickerController.h; sourceTree = "<group>"; };
+		A1DE2A66297B357675C92520B2DF086C /* RYImagePickerScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImagePickerScrollView.m; path = RYImagePicker/RYImagePickerScrollView.m; sourceTree = "<group>"; };
 		A63BBCEB66D57AD7A17551AE1BE1E9A3 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		A6DA571D9ED596C9AF587A93D401EA2C /* RYPHAssetPlayController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetPlayController.m; path = RYImagePicker/RYPHAssetPlayController.m; sourceTree = "<group>"; };
 		A9253A59486B72626D2C6356C2FA6007 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		AB1F52C05D07A2FC04544E8BFDFEACD4 /* RYAlbumListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAlbumListController.h; path = RYImagePicker/RYAlbumListController.h; sourceTree = "<group>"; };
 		AE2CC4C3D32195A0A07E4AE7F52FC516 /* Pods-RYimagePickerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYimagePickerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		AEB2FD761A7FD42FE0E138F6D2C678D7 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		B0BB873D5D15A279E99D1F132627C360 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		B492F196F1B1D8F0AF06E451E8201671 /* RYAlbumsSelectCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAlbumsSelectCell.h; path = RYImagePicker/RYAlbumsSelectCell.h; sourceTree = "<group>"; };
 		B49F760E48607908D5835B42E7612794 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		B5364E5F60A4FACCDE3E190470D484A3 /* RYAlbumSelectNaviTopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAlbumSelectNaviTopView.m; path = RYImagePicker/RYAlbumSelectNaviTopView.m; sourceTree = "<group>"; };
 		B5B8CB18865FDA0EF00C0EFA6EDD074B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		B784BE7212D6403C622A66E375EE2DD5 /* RYListControllerFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYListControllerFooterView.h; path = RYImagePicker/RYListControllerFooterView.h; sourceTree = "<group>"; };
-		BB795669332B837CD17F07A595FEA630 /* RYPHAssetPlayViewFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetPlayViewFooterView.m; path = RYImagePicker/RYPHAssetPlayViewFooterView.m; sourceTree = "<group>"; };
 		BC1273C6E7DAB6B34FD9DF5F2345DC9E /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		BF232C5B488EB11F1EC405B979A54590 /* RYPHAssetBorwserController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetBorwserController.h; path = RYImagePicker/RYPHAssetBorwserController.h; sourceTree = "<group>"; };
-		C0472E383619C25377A7F167B434244D /* RYPHAssetPlayViewHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetPlayViewHeaderView.h; path = RYImagePicker/RYPHAssetPlayViewHeaderView.h; sourceTree = "<group>"; };
 		C11C14009BF34924829A52A1AA4AB605 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		C2511CC1AD866D88CD39EEFAE12912E6 /* RYAlbumListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYAlbumListController.h; path = RYImagePicker/RYAlbumListController.h; sourceTree = "<group>"; };
-		C28D362D13BC6D60E67BCCD1BB552ADE /* RYGridCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYGridCellModel.m; path = RYImagePicker/RYGridCellModel.m; sourceTree = "<group>"; };
+		C38D4357BFFF3945106E72718A4B0BDF /* RYAlbumsSelectCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAlbumsSelectCell.m; path = RYImagePicker/RYAlbumsSelectCell.m; sourceTree = "<group>"; };
 		C3A01A7260C2827AA7C6A9F5BC190188 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		C64DB3B0AF38935E9DB023C95713443E /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		CA95E622E646CCF81E1DED4E17AAA4C4 /* RYPHAssetCacheHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetCacheHelper.h; path = RYImagePicker/RYPHAssetCacheHelper.h; sourceTree = "<group>"; };
-		CAE666758640960FF80C2A77950CA53A /* RYGridCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYGridCell.h; path = RYImagePicker/RYGridCell.h; sourceTree = "<group>"; };
-		D338EE85C5124F1E494F077E7A37D439 /* RYImagePickerUIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImagePickerUIConfig.h; path = RYImagePicker/RYImagePickerUIConfig.h; sourceTree = "<group>"; };
+		C672D4419E23FEAA9AB2A00EEFFCBBBA /* RYImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImagePicker.h; path = RYImagePicker/RYImagePicker.h; sourceTree = "<group>"; };
+		C6CE6CBE5495A78A8099CA0A99E4DDDF /* RYPHAssetPlayViewHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetPlayViewHeaderView.h; path = RYImagePicker/RYPHAssetPlayViewHeaderView.h; sourceTree = "<group>"; };
+		CAFD70ACA0B93277D2E034A0942D9297 /* RYAlbumsSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAlbumsSelectView.m; path = RYImagePicker/RYAlbumsSelectView.m; sourceTree = "<group>"; };
+		CEB208FAD47B1DE85241768059EC332B /* RYGridCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYGridCell.h; path = RYImagePicker/RYGridCell.h; sourceTree = "<group>"; };
 		D3512F2E5B180672D664EDBAC1FE053D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		D5F369CD5507B94121D32B760D8842C2 /* RYPHAssetPlayController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetPlayController.h; path = RYImagePicker/RYPHAssetPlayController.h; sourceTree = "<group>"; };
-		D7A6616AB72950FD2C846C100E43E231 /* RYPHAssetPlayViewHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetPlayViewHeaderView.m; path = RYImagePicker/RYPHAssetPlayViewHeaderView.m; sourceTree = "<group>"; };
-		DAB3E4E50D604544375B62A91A06EDED /* RYImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYImagePickerController.h; path = RYImagePicker/RYImagePickerController.h; sourceTree = "<group>"; };
 		E11AF9D22E419EAF543FDC350503136A /* Pods-RYimagePickerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYimagePickerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E31B04C3F403D68FD138FC3DA0A30FEB /* RYPHAssetBorwserController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetBorwserController.m; path = RYImagePicker/RYPHAssetBorwserController.m; sourceTree = "<group>"; };
-		E38FAD5D48563FAE9C5704D69167169F /* RYImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYImagePicker-prefix.pch"; sourceTree = "<group>"; };
-		E57C2E5048291F35566F1C18B62A7A51 /* RYGridCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYGridCellModel.h; path = RYImagePicker/RYGridCellModel.h; sourceTree = "<group>"; };
-		E72B49C6C2B9173AF00A9FF95FB6FDB9 /* RYImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImagePickerController.m; path = RYImagePicker/RYImagePickerController.m; sourceTree = "<group>"; };
-		E868EEF9995AA565798C96912C81B4D5 /* RYImagePickerUIConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImagePickerUIConfig.m; path = RYImagePicker/RYImagePickerUIConfig.m; sourceTree = "<group>"; };
-		E8FE7347684F4AD277CD76B87ADBC790 /* RYListControllerFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYListControllerFooterView.m; path = RYImagePicker/RYListControllerFooterView.m; sourceTree = "<group>"; };
-		EA4AFF592710AAAD60AE02A212543B32 /* RYGridCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYGridCell.m; path = RYImagePicker/RYGridCell.m; sourceTree = "<group>"; };
-		EDC6F5B91F52C55B4F0FEC778A219D8A /* RYImageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYImageScrollView.m; path = RYImagePicker/RYImageScrollView.m; sourceTree = "<group>"; };
 		EE00156D8EE518DB57BDB238A6236785 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		EF05B84520E568A1129C5C4BC8930DE6 /* RYAlbumListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAlbumListController.m; path = RYImagePicker/RYAlbumListController.m; sourceTree = "<group>"; };
-		F28F2D58015A135DBAF5E4AB5CD69C1F /* RYAlbumsSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYAlbumsSelectView.m; path = RYImagePicker/RYAlbumsSelectView.m; sourceTree = "<group>"; };
 		F9AD61CDAEDBCADAA210E79B60967C24 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		FBB10AB7613A73AFE7386222DA827CDE /* RYPHAssetPlayController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RYPHAssetPlayController.m; path = RYImagePicker/RYPHAssetPlayController.m; sourceTree = "<group>"; };
+		FD18A576F5C1DA9CB63CA6E97553218E /* RYPHAssetBorwserController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPHAssetBorwserController.h; path = RYImagePicker/RYPHAssetBorwserController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,21 +206,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CE42F2B7CE773434A60BA930A2DDCAD /* Support Files */ = {
+		2EC7D92045EEFE0E036F72F92CB30A6F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				20D3C543946C69AD11093320DC78C6BA /* RYImagePicker.xcconfig */,
-				8D1FC2530DC6A79F579CFF4ACA7C4DEB /* RYImagePicker-dummy.m */,
-				E38FAD5D48563FAE9C5704D69167169F /* RYImagePicker-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RYImagePicker";
-			sourceTree = "<group>";
-		};
-		2EDD0CCFAF95F3242FC079CB25BB09A6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5E3E8852C1EEC2782CBF8EC8148E63FB /* RYPhotosPickerManager.bundle */,
+				021EBA0597F8A37CAC4343374393722A /* RYPhotosPickerManager.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -237,7 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				B37C045DF314F46E2237AC96559A16F6 /* Masonry */,
-				D6EED57F9217B0FF1FF51E5D04BBB0BA /* RYImagePicker */,
+				B392609D399238556052F423DB97217B /* RYImagePicker */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -273,6 +262,17 @@
 				6002E47E13B59083CCB156B8BE9C106D /* Pods-RYimagePickerDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D6A36ADC63C16A9A889E3E1CE2171B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8321D42CC22DE4560C065EE9E6097E9B /* RYImagePicker.xcconfig */,
+				6FBB3C0D2719C530AA5D8F9AECE6BBE5 /* RYImagePicker-dummy.m */,
+				32DC34ED25E765225EDF0F3689A5C2D2 /* RYImagePicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RYImagePicker";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -320,6 +320,48 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		B392609D399238556052F423DB97217B /* RYImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F52C05D07A2FC04544E8BFDFEACD4 /* RYAlbumListController.h */,
+				8471DC29E712F98AB81935F8AB7BEBD5 /* RYAlbumListController.m */,
+				24C3523A9262B28479CD6C11F255583F /* RYAlbumSelectNaviTopView.h */,
+				B5364E5F60A4FACCDE3E190470D484A3 /* RYAlbumSelectNaviTopView.m */,
+				B492F196F1B1D8F0AF06E451E8201671 /* RYAlbumsSelectCell.h */,
+				C38D4357BFFF3945106E72718A4B0BDF /* RYAlbumsSelectCell.m */,
+				055B723BB0FF5B1304A9A03B4D80C633 /* RYAlbumsSelectView.h */,
+				CAFD70ACA0B93277D2E034A0942D9297 /* RYAlbumsSelectView.m */,
+				CEB208FAD47B1DE85241768059EC332B /* RYGridCell.h */,
+				6DC40A5813AD537F94288C2C7B61E973 /* RYGridCell.m */,
+				2402A5AB6CF34E29A418011C06A54CD3 /* RYGridCellModel.h */,
+				48DE498424799A3A8236CBA76AF3C98E /* RYGridCellModel.m */,
+				C672D4419E23FEAA9AB2A00EEFFCBBBA /* RYImagePicker.h */,
+				5BB308A5A7A88A42D23ABA1C649C51C5 /* RYImagePicker.m */,
+				A0474B113DD7732A3814B4EFDCB55D89 /* RYImagePickerController.h */,
+				2D4A821E121753B86D2D4EE3E7445606 /* RYImagePickerController.m */,
+				4D28E28679159F857F8197802072131E /* RYImagePickerScrollView.h */,
+				A1DE2A66297B357675C92520B2DF086C /* RYImagePickerScrollView.m */,
+				53BAB7A177F19733BD362CF478EC6344 /* RYImagePickerUIConfig.h */,
+				0D8782266B1022D0AA3251D0C1585014 /* RYImagePickerUIConfig.m */,
+				1575EF641C9B3B7F957D72F2108FEE88 /* RYListControllerFooterView.h */,
+				91B9A2A558D3DF2B183E993E17D31AE0 /* RYListControllerFooterView.m */,
+				FD18A576F5C1DA9CB63CA6E97553218E /* RYPHAssetBorwserController.h */,
+				14390DBA4E852DD05802EDA3CFD3F6C8 /* RYPHAssetBorwserController.m */,
+				86D12A7AB22B2C5A65666B4540A2896B /* RYPHAssetCacheHelper.h */,
+				9EB8B6BDAEE4ED83551A7FB77C507BB4 /* RYPHAssetCacheHelper.m */,
+				6B919A39D96D8FB273F38837405B4889 /* RYPHAssetPlayController.h */,
+				FBB10AB7613A73AFE7386222DA827CDE /* RYPHAssetPlayController.m */,
+				331794FA96D69CEFF9C1FAA3E12AA47C /* RYPHAssetPlayViewFooterView.h */,
+				150CA01D1230C664933F052D536CF067 /* RYPHAssetPlayViewFooterView.m */,
+				C6CE6CBE5495A78A8099CA0A99E4DDDF /* RYPHAssetPlayViewHeaderView.h */,
+				26100B30229DF49B212BBD63025B36B3 /* RYPHAssetPlayViewHeaderView.m */,
+				2EC7D92045EEFE0E036F72F92CB30A6F /* Resources */,
+				7D6A36ADC63C16A9A889E3E1CE2171B3 /* Support Files */,
+			);
+			name = RYImagePicker;
+			path = RYImagePicker;
+			sourceTree = "<group>";
+		};
 		C0D00081AD63D8147236949764458B55 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,48 +371,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		D6EED57F9217B0FF1FF51E5D04BBB0BA /* RYImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				C2511CC1AD866D88CD39EEFAE12912E6 /* RYAlbumListController.h */,
-				EF05B84520E568A1129C5C4BC8930DE6 /* RYAlbumListController.m */,
-				23A7ABCDE0C5228606CDECA2ED2E6808 /* RYAlbumSelectNaviTopView.h */,
-				50A81CD315DBF421208D0486A3AD7CB1 /* RYAlbumSelectNaviTopView.m */,
-				64799746F5B8C49BE65BDD8532B16163 /* RYAlbumsSelectCell.h */,
-				35DE183A003B19FA09CE37D8DF95243A /* RYAlbumsSelectCell.m */,
-				2D1B1E21756D7BB2BD614D224B26B93B /* RYAlbumsSelectView.h */,
-				F28F2D58015A135DBAF5E4AB5CD69C1F /* RYAlbumsSelectView.m */,
-				CAE666758640960FF80C2A77950CA53A /* RYGridCell.h */,
-				EA4AFF592710AAAD60AE02A212543B32 /* RYGridCell.m */,
-				E57C2E5048291F35566F1C18B62A7A51 /* RYGridCellModel.h */,
-				C28D362D13BC6D60E67BCCD1BB552ADE /* RYGridCellModel.m */,
-				53EC5659BF74CD5FEFA2B9F211B59436 /* RYImagePicker.h */,
-				23467684BBB9DB155EFE757F89E6118C /* RYImagePicker.m */,
-				DAB3E4E50D604544375B62A91A06EDED /* RYImagePickerController.h */,
-				E72B49C6C2B9173AF00A9FF95FB6FDB9 /* RYImagePickerController.m */,
-				D338EE85C5124F1E494F077E7A37D439 /* RYImagePickerUIConfig.h */,
-				E868EEF9995AA565798C96912C81B4D5 /* RYImagePickerUIConfig.m */,
-				2B334B93DDA8FFD56893A304F1F581B3 /* RYImageScrollView.h */,
-				EDC6F5B91F52C55B4F0FEC778A219D8A /* RYImageScrollView.m */,
-				B784BE7212D6403C622A66E375EE2DD5 /* RYListControllerFooterView.h */,
-				E8FE7347684F4AD277CD76B87ADBC790 /* RYListControllerFooterView.m */,
-				BF232C5B488EB11F1EC405B979A54590 /* RYPHAssetBorwserController.h */,
-				E31B04C3F403D68FD138FC3DA0A30FEB /* RYPHAssetBorwserController.m */,
-				CA95E622E646CCF81E1DED4E17AAA4C4 /* RYPHAssetCacheHelper.h */,
-				36CA1498E543A01C3E93CCFDF4C81A29 /* RYPHAssetCacheHelper.m */,
-				D5F369CD5507B94121D32B760D8842C2 /* RYPHAssetPlayController.h */,
-				A6DA571D9ED596C9AF587A93D401EA2C /* RYPHAssetPlayController.m */,
-				7CF8D2759267DB57C7A8B5AEB1F43D65 /* RYPHAssetPlayViewFooterView.h */,
-				BB795669332B837CD17F07A595FEA630 /* RYPHAssetPlayViewFooterView.m */,
-				C0472E383619C25377A7F167B434244D /* RYPHAssetPlayViewHeaderView.h */,
-				D7A6616AB72950FD2C846C100E43E231 /* RYPHAssetPlayViewHeaderView.m */,
-				2EDD0CCFAF95F3242FC079CB25BB09A6 /* Resources */,
-				1CE42F2B7CE773434A60BA930A2DDCAD /* Support Files */,
-			);
-			name = RYImagePicker;
-			path = RYImagePicker;
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -385,29 +385,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6F990CD1F7353A46C6C872153EA461D7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DA5E769617E1DEC4CC4D09AEA92EE30 /* RYAlbumListController.h in Headers */,
-				0C174B957815309C52FBC8145899E130 /* RYAlbumSelectNaviTopView.h in Headers */,
-				AA3B9F46D0B0C19E2FD211D1F0D01120 /* RYAlbumsSelectCell.h in Headers */,
-				F368965747A33496A5E18FA005B2E9E6 /* RYAlbumsSelectView.h in Headers */,
-				B2241510FDC55607D5326DB9BFD84D07 /* RYGridCell.h in Headers */,
-				7C0117FAF6D762D8A0AA4A65B434571C /* RYGridCellModel.h in Headers */,
-				7F86D2ED7CA318E050EA0132DE02A087 /* RYImagePicker.h in Headers */,
-				54C5E8DB9A862A2CA209CFBE783CB477 /* RYImagePickerController.h in Headers */,
-				5673C8C3E5442BE7CE35FAC26C88CC1C /* RYImagePickerUIConfig.h in Headers */,
-				57CB1A15F0477B59EC081CADEC8BCD3A /* RYImageScrollView.h in Headers */,
-				1E7714798C1CF573B08FBA5C9823E7EB /* RYListControllerFooterView.h in Headers */,
-				0B9C30029B4FD663F66DED9CCD1F59F9 /* RYPHAssetBorwserController.h in Headers */,
-				18C7DEC577BEC41DB13338A1270D94B5 /* RYPHAssetCacheHelper.h in Headers */,
-				14F5A63C4462A236FAE0F99E372C3AA1 /* RYPHAssetPlayController.h in Headers */,
-				F19754D7A644AB1C2D46F8D153E9E4BE /* RYPHAssetPlayViewFooterView.h in Headers */,
-				1A8FF76FCDA23B624CFC67185E1E4120 /* RYPHAssetPlayViewHeaderView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +404,29 @@
 				86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */,
 				983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */,
 				C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6DE5B3A58D8A993DD4130C1E31F9DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4BEFBDB374EAAC60EE5195224A42DB /* RYAlbumListController.h in Headers */,
+				543E27B3858B5C93029BA65E803F974D /* RYAlbumSelectNaviTopView.h in Headers */,
+				9DABEF893F7E99F1225281947CDEDA70 /* RYAlbumsSelectCell.h in Headers */,
+				147B210DE9D091013344F583657DC91D /* RYAlbumsSelectView.h in Headers */,
+				913596C5F05584D74C14F785F5E488B7 /* RYGridCell.h in Headers */,
+				64C8607694816C3658E43176DA857717 /* RYGridCellModel.h in Headers */,
+				29EF82E92D80171B2DC77F6685BFEB98 /* RYImagePicker.h in Headers */,
+				F278EE289264DB4146B4B5883770B142 /* RYImagePickerController.h in Headers */,
+				7C683535082FFACBB9415754CBCA9F5A /* RYImagePickerScrollView.h in Headers */,
+				A5B44CE4CE6AD23593D087B2A3795C49 /* RYImagePickerUIConfig.h in Headers */,
+				6E7CCBDF8941CC286C9FA6F9E0B04627 /* RYListControllerFooterView.h in Headers */,
+				0D1AACA1B24AB34070928CF0CC2BF3A9 /* RYPHAssetBorwserController.h in Headers */,
+				F76BECF82D542DD13D15969621C8A61E /* RYPHAssetCacheHelper.h in Headers */,
+				00558E2FE845C02FBCD4ADBF5AD01333 /* RYPHAssetPlayController.h in Headers */,
+				3F20E0AFAC9FA7C25418377BFE898114 /* RYPHAssetPlayViewFooterView.h in Headers */,
+				DF2FD0739C5C8917E9132CD85A310D20 /* RYPHAssetPlayViewHeaderView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,9 +455,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F990CC076DCA42B48C489D488F598877 /* Build configuration list for PBXNativeTarget "RYImagePicker" */;
 			buildPhases = (
-				ABC6474C6A3B5CC0EE3BDC7ED79DDC51 /* Sources */,
+				5C04621A17054961FDB4D0FD8300191F /* Sources */,
 				19057AED3878BA7598958435CFEAACA7 /* Frameworks */,
-				6F990CD1F7353A46C6C872153EA461D7 /* Headers */,
+				CC6DE5B3A58D8A993DD4130C1E31F9DA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -533,35 +533,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C04621A17054961FDB4D0FD8300191F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506AF1C0895D6169AB0D183C88A6F55E /* RYAlbumListController.m in Sources */,
+				8BA01E54A6E22CE5B3A16C9862529FE6 /* RYAlbumSelectNaviTopView.m in Sources */,
+				6990C40671844335C37713841F835FA2 /* RYAlbumsSelectCell.m in Sources */,
+				4C86F045C0A97DB88F523F1B2102EA22 /* RYAlbumsSelectView.m in Sources */,
+				E168705507B436C2FA6279605E8C55DE /* RYGridCell.m in Sources */,
+				5C5E7586CC961EFDBA3BB7DC227E538B /* RYGridCellModel.m in Sources */,
+				69C2E7888FEF4F4E14F72FD8AEDA18CB /* RYImagePicker-dummy.m in Sources */,
+				1B4670C30DC5AE080733B5E427A4D5B7 /* RYImagePicker.m in Sources */,
+				2D28DB02F8321700DCF3849917E4B6B5 /* RYImagePickerController.m in Sources */,
+				13FBFEFE52D36AAC315644ACBE97893B /* RYImagePickerScrollView.m in Sources */,
+				5083EDD7CC60C1DBD40C5688DA2BFA7B /* RYImagePickerUIConfig.m in Sources */,
+				9828C51D0E23FDD734BEAEB71D71B0B1 /* RYListControllerFooterView.m in Sources */,
+				DDD9778685CF79A8F7E6E3858C687E56 /* RYPHAssetBorwserController.m in Sources */,
+				075840F963971DD2FAB263F435DFA080 /* RYPHAssetCacheHelper.m in Sources */,
+				4F7542A3BF55D150769CE52C9649B731 /* RYPHAssetPlayController.m in Sources */,
+				6775F05ED03DFE021342C58422DC71F5 /* RYPHAssetPlayViewFooterView.m in Sources */,
+				7A7BC1D47A82A2C629B47663770527D0 /* RYPHAssetPlayViewHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6946FAB08BB70D40420F1D8969C1465F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90804AC3E1A567A2538A959D845A554B /* Pods-RYimagePickerDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABC6474C6A3B5CC0EE3BDC7ED79DDC51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CB7333E5223BF9687FC4EE50D89F5A1 /* RYAlbumListController.m in Sources */,
-				633EC6635E9A0E7D01D98203042E3406 /* RYAlbumSelectNaviTopView.m in Sources */,
-				E8B56B6E943544B3E9B2C707D8724FE5 /* RYAlbumsSelectCell.m in Sources */,
-				D08655C0A5FD7B9FBB0C3C1154A0DD43 /* RYAlbumsSelectView.m in Sources */,
-				6149D391AA681F4F4BFF2B3D8343D6D2 /* RYGridCell.m in Sources */,
-				4C04258CEC39525AC7F580D61B2BE331 /* RYGridCellModel.m in Sources */,
-				39E180446FD2ACA767448509ED1AE264 /* RYImagePicker-dummy.m in Sources */,
-				FB6CAB203B678F4C50BD4033BCB1A8BC /* RYImagePicker.m in Sources */,
-				82A57F91CF4260F006E1A3C4DFF2193C /* RYImagePickerController.m in Sources */,
-				0D123B1DDDC389A2D3E5CBEF05250BF8 /* RYImagePickerUIConfig.m in Sources */,
-				C3260A12293442EC9B1CE8AFA0BF087B /* RYImageScrollView.m in Sources */,
-				557987BC1540256333BC7629F68B64E3 /* RYListControllerFooterView.m in Sources */,
-				CF975E323C1AC33228F7935830C69077 /* RYPHAssetBorwserController.m in Sources */,
-				754375DBA11EA8C736B8932D2E6E2119 /* RYPHAssetCacheHelper.m in Sources */,
-				E44D0925AFDAD6DF8E84E7FBFCABDBC0 /* RYPHAssetPlayController.m in Sources */,
-				F1CFE1CE44C117105C94DA21B07DA6C2 /* RYPHAssetPlayViewFooterView.m in Sources */,
-				F9DE8698285E6D8C5300D8E288D44EC1 /* RYPHAssetPlayViewHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,7 +591,7 @@
 /* Begin XCBuildConfiguration section */
 		00A487441CD701595E73F2F70EF6F031 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20D3C543946C69AD11093320DC78C6BA /* RYImagePicker.xcconfig */;
+			baseConfigurationReference = 8321D42CC22DE4560C065EE9E6097E9B /* RYImagePicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -790,7 +790,7 @@
 		};
 		9F44306509FB4B84C953172932045C82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20D3C543946C69AD11093320DC78C6BA /* RYImagePicker.xcconfig */;
+			baseConfigurationReference = 8321D42CC22DE4560C065EE9E6097E9B /* RYImagePicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

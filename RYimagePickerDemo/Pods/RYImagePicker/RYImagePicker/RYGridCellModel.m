@@ -1,6 +1,6 @@
 //
 //  RYGridCellModel.m
-//  RYimagePickerDemo
+//  RYImagePicker
 //
 //  Created by RongqingWang on 16/5/10.
 //  Copyright © 2016年 RongqingWang. All rights reserved.

@@ -1,19 +1,19 @@
 //
-//  RYImageScrollView.m
-//  BigFan
+//  RYImagePickerScrollView.m
+//  RYImagePicker
 //
 //  Created by RongqingWang on 16/10/13.
-//  Copyright © 2016年 QuanYan. All rights reserved.
+//  Copyright © 2016年 RongqingWang. All rights reserved.
 //
 
-#import "RYImageScrollView.h"
+#import "RYImagePickerScrollView.h"
 #import "RYImagePicker.h"
 
 NSString * const RYAssetScrollViewDidTapNotification = @"RYAssetScrollViewDidTapNotification";
 NSString * const RYAssetScrollViewPlayerWillPlayNotification = @"RYAssetScrollViewPlayerWillPlayNotification";
 NSString * const RYAssetScrollViewPlayerWillPauseNotification = @"RYAssetScrollViewPlayerWillPauseNotification";
 
-@interface RYImageScrollView ()<UIScrollViewDelegate, UIGestureRecognizerDelegate>
+@interface RYImagePickerScrollView ()<UIScrollViewDelegate, UIGestureRecognizerDelegate>
 
 @property (nonatomic, assign) BOOL didLoadPlayerItem;
 @property (nonatomic, assign) BOOL isPlaying;
@@ -26,7 +26,7 @@ NSString * const RYAssetScrollViewPlayerWillPauseNotification = @"RYAssetScrollV
 
 @end
 
-@implementation RYImageScrollView
+@implementation RYImagePickerScrollView
 
 #pragma mark - init
 - (instancetype)initWithFrame:(CGRect)frame {

@@ -1,9 +1,9 @@
 //
 //  RYImagePickerUIConfig.h
-//  BigFan
+//  RYImagePicker
 //
 //  Created by RongqingWang on 16/12/5.
-//  Copyright © 2016年 QuanYan. All rights reserved.
+//  Copyright © 2016年 RongqingWang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

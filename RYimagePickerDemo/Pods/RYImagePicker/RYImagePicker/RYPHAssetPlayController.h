@@ -1,14 +1,14 @@
 //
 //  RYPHAssetPlayController.h
-//  BigFan
+//  RYImagePicker
 //
 //  Created by RongqingWang on 16/10/13.
-//  Copyright © 2016年 QuanYan. All rights reserved.
+//  Copyright © 2016年 RongqingWang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <Photos/Photos.h>
-#import "RYImageScrollView.h"
+#import "RYImagePickerScrollView.h"
 #import "RYGridCellModel.h"
 
 @interface RYPHAssetPlayController : UIViewController

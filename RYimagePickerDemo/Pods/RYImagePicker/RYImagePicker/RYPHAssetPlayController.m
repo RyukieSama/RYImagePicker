@@ -1,9 +1,9 @@
 //
 //  RYPHAssetPlayController.m
-//  BigFan
+//  RYImagePicker
 //
 //  Created by RongqingWang on 16/10/13.
-//  Copyright © 2016年 QuanYan. All rights reserved.
+//  Copyright © 2016年 RongqingWang. All rights reserved.
 //
 
 #import "RYPHAssetPlayController.h"
@@ -13,7 +13,7 @@
 @property (nonatomic, strong) PHImageManager *imageManager;
 @property (nonatomic, assign) PHImageRequestID imageRequestID;
 @property (nonatomic, assign) PHImageRequestID playerItemRequestID;
-@property (nonatomic, strong) RYImageScrollView *scrollView;
+@property (nonatomic, strong) RYImagePickerScrollView *scrollView;
 
 @end
 
@@ -70,7 +70,7 @@
 
 #pragma mark - set
 - (void)setUpUI {
-    RYImageScrollView *scrollView = [[RYImageScrollView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    RYImagePickerScrollView *scrollView = [[RYImagePickerScrollView alloc] initWithFrame:[UIScreen mainScreen].bounds];
     scrollView.allowsSelection = self.allowsSelection;
     scrollView.cellModel = self.cellModel;
     self.scrollView = scrollView;

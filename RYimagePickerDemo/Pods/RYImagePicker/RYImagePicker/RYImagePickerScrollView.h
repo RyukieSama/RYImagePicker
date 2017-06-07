@@ -1,9 +1,9 @@
 //
-//  RYImageScrollView.h
-//  BigFan
+//  RYImagePickerScrollView.h
+//  RYImagePicker
 //
 //  Created by RongqingWang on 16/10/13.
-//  Copyright © 2016年 QuanYan. All rights reserved.
+//  Copyright © 2016年 RongqingWang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,7 +14,7 @@ extern NSString * const RYAssetScrollViewDidTapNotification;
 extern NSString * const RYAssetScrollViewPlayerWillPlayNotification;
 extern NSString * const RYAssetScrollViewPlayerWillPauseNotification;
 
-@interface RYImageScrollView : UIScrollView
+@interface RYImagePickerScrollView : UIScrollView
 
 @property (nonatomic, assign) BOOL allowsSelection;
 @property (nonatomic, strong) AVPlayer *player;
