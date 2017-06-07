@@ -1,6 +1,6 @@
 //
 //  RYAlbumSelectNaviTopView.m
-//  RYimagePickerDemo
+//  RYImagePicker
 //
 //  Created by RongqingWang on 16/10/12.
 //  Copyright © 2016年 RongqingWang. All rights reserved.

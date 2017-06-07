@@ -1,9 +1,9 @@
 //
 //  RYPHAssetCacheHelper.h
-//  BigFan
+//  RYImagePicker
 //
 //  Created by RongqingWang on 16/10/24.
-//  Copyright © 2016年 QuanYan. All rights reserved.
+//  Copyright © 2016年 RongqingWang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
