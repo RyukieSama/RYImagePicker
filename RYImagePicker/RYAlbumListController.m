@@ -396,12 +396,15 @@ static NSString *reuseID = @"HeheCell";
         indexInAlbum ++;
         [arrTemp addObject:cellModel];
     };
-    self.cellModels = arrTemp.copy;
     
-    //选择完成后收起
-    self.vTopCenterView.isShowed = NO;
-    self.btBack.alpha = 0;
-    self.vAlbumSelectView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 0);
+    __weak typeof(self) weakSelf = self;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        weakSelf.cellModels = arrTemp.copy;
+        //选择完成后收起
+        weakSelf.vTopCenterView.isShowed = NO;
+        weakSelf.btBack.alpha = 0;
+        weakSelf.vAlbumSelectView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 0);
+    });
 }
 
 /**
@@ -713,3 +716,4 @@ static NSString *reuseID = @"HeheCell";
 }
 
 @end
+

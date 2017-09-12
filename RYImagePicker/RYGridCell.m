@@ -92,15 +92,17 @@
     
     if ([[RYImagePicker sharedInstance].imageCacheHelper checkPHAsset:asset]) {//已经存在
         UIImage *image = [[RYImagePicker sharedInstance].imageCacheHelper getImageForPHAsset:asset];
-        [self.bt_image setImage:image forState:UIControlStateNormal];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [weakSelf.bt_image setImage:image forState:UIControlStateNormal];
+        });
     } else {
         [[PHImageManager defaultManager] requestImageForAsset:asset
                                                    targetSize:RY_CELLIMAGESIZE//太奇葩了...  之前设置的100 * 100的大小有时候会转换图片失败 解决办法最后一条  http://stackoverflow.com/questions/31037859/phimagemanager-requestimageforasset-returns-nil-sometimes-for-icloud-photos
                                                   contentMode:PHImageContentModeAspectFill
                                                       options:options
                                                 resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
-                                                    NSLog(@"%@",info);
-                                                    NSLog(@"localIdentifier = %@",asset.localIdentifier);
+//                                                    NSLog(@"%@",info);
+//                                                    NSLog(@"localIdentifier = %@",asset.localIdentifier);
                                                     if (!result) {
                                                         NSLog(@"Do something with the regraded image    result空");
                                                         [self.bt_image setImage:nil forState:UIControlStateNormal];
@@ -112,7 +114,7 @@
                                                             if ([wweakSelf.representedAssetIdentifier isEqualToString:asset.localIdentifier]) {
                                                                 [wweakSelf.bt_image setImage:result forState:UIControlStateNormal];
                                                             }
-                                                            NSLog(@"Do something with the regraded image   转化出图片");
+//                                                            NSLog(@"Do something with the regraded image   转化出图片");
                                                         });
                                                     }
                                                 }];
@@ -219,3 +221,4 @@
 }
 
 @end
+
