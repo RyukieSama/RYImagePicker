@@ -43,7 +43,7 @@
 
 - (UIImage *)getImageForPHAsset:(PHAsset *)asset {
     UIImage *image = [self.cachePool objectForKey:asset.localIdentifier];
-    NSLog(@"图片来自缓存 localIdentifier = %@ \n %@",asset.localIdentifier,image);
+//    NSLog(@"图片来自缓存 localIdentifier = %@ \n %@",asset.localIdentifier,image);
     return image;
 }
 

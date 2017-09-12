@@ -30,6 +30,10 @@
     [self addSubview:self.btTitlte];
     [self.btTitlte addSubview:self.ivArrow];
     
+    [self mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width - 100);
+        make.height.mas_equalTo(40);
+    }];
     [self.btTitlte mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(0);
     }];
@@ -87,3 +91,4 @@
 }
 
 @end
+

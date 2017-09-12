@@ -101,8 +101,8 @@
                                                   contentMode:PHImageContentModeAspectFill
                                                       options:options
                                                 resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
-                                                    NSLog(@"%@",info);
-                                                    NSLog(@"localIdentifier = %@",asset.localIdentifier);
+//                                                    NSLog(@"%@",info);
+//                                                    NSLog(@"localIdentifier = %@",asset.localIdentifier);
                                                     if (!result) {
                                                         NSLog(@"Do something with the regraded image    result空");
                                                         [self.bt_image setImage:nil forState:UIControlStateNormal];
@@ -114,7 +114,7 @@
                                                             if ([wweakSelf.representedAssetIdentifier isEqualToString:asset.localIdentifier]) {
                                                                 [wweakSelf.bt_image setImage:result forState:UIControlStateNormal];
                                                             }
-                                                            NSLog(@"Do something with the regraded image   转化出图片");
+//                                                            NSLog(@"Do something with the regraded image   转化出图片");
                                                         });
                                                     }
                                                 }];
@@ -221,3 +221,4 @@
 }
 
 @end
+

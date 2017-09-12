@@ -379,7 +379,10 @@ static NSString *reuseID = @"HeheCell";
     }
     PHAssetCollection *assetCollection = (PHAssetCollection *)collection;
     
-    [self.vTopCenterView setTitle:[assetCollection localizedTitle]];//一定放在这里
+    __weak typeof(self)weakSelf = self;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [weakSelf.vTopCenterView setTitle:[assetCollection localizedTitle]];//一定放在这里
+    });
     
     PHFetchResult *assetsFetchResult = [PHAsset fetchAssetsInAssetCollection:assetCollection options:self.fetchOptions];
     self.currentFetchResult = assetsFetchResult;
@@ -397,7 +400,7 @@ static NSString *reuseID = @"HeheCell";
         [arrTemp addObject:cellModel];
     };
     
-    __weak typeof(self) weakSelf = self;
+//    __weak typeof(self) weakSelf = self;
     dispatch_async(dispatch_get_main_queue(), ^{
         weakSelf.cellModels = arrTemp.copy;
         //选择完成后收起
@@ -716,3 +719,4 @@ static NSString *reuseID = @"HeheCell";
 }
 
 @end
+
