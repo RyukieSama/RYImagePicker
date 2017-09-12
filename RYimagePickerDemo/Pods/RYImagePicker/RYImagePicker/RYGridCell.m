@@ -92,7 +92,9 @@
     
     if ([[RYImagePicker sharedInstance].imageCacheHelper checkPHAsset:asset]) {//已经存在
         UIImage *image = [[RYImagePicker sharedInstance].imageCacheHelper getImageForPHAsset:asset];
-        [self.bt_image setImage:image forState:UIControlStateNormal];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [weakSelf.bt_image setImage:image forState:UIControlStateNormal];
+        });
     } else {
         [[PHImageManager defaultManager] requestImageForAsset:asset
                                                    targetSize:RY_CELLIMAGESIZE//太奇葩了...  之前设置的100 * 100的大小有时候会转换图片失败 解决办法最后一条  http://stackoverflow.com/questions/31037859/phimagemanager-requestimageforasset-returns-nil-sometimes-for-icloud-photos
